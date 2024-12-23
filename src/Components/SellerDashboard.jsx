@@ -149,6 +149,9 @@ const SellerDashboard = () => {
     }));
   };
 
+
+  
+
   return (
     <>
     <div className="min-h-screen bg-[#f5e6d3]">
@@ -156,7 +159,7 @@ const SellerDashboard = () => {
         <div className="container mx-auto flex flex-wrap justify-between items-center px-4">
           <h1 className="text-xl font-bold">Seller Dashboard</h1>
           <button
-            onClick={handleLogout}
+            onClick={()=>navigate('/')}
             className="bg-[#d3c4b3] text-[#5c4f3d] py-2 px-4 rounded hover:bg-[#e8d9c5] transition duration-300"
           >
             Logout
