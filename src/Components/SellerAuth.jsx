@@ -87,7 +87,7 @@ const handleStaticSubmit=(e)=>{
                 autoComplete="email"
                 required
                 className="appearance-none rounded-none relative block w-full px-3 py-2 border border-[#d3c4b3] placeholder-gray-500 text-gray-900 rounded-t-md focus:outline-none focus:ring-[#8b7d6b] focus:border-[#8b7d6b] focus:z-10 sm:text-sm"
-                placeholder="Username"
+                placeholder="john"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
               />
@@ -104,7 +104,7 @@ const handleStaticSubmit=(e)=>{
                 autoComplete="current-password"
                 required
                 className="appearance-none rounded-none relative block w-full px-3 py-2 border border-[#d3c4b3] placeholder-gray-500 text-gray-900 focus:outline-none focus:ring-[#8b7d6b] focus:border-[#8b7d6b] focus:z-10 sm:text-sm"
-                placeholder="Password"
+                placeholder="john10"
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
               />
