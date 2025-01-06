@@ -15,12 +15,7 @@ Live Demo: https://cloth-ecommerce-git-main-dhruvins-projects-e45a9a9f.vercel.ap
 
 ## Tech Stack
 - React
-- Node.js
-- MongoDB
 - Tailwind CSS
-- Express.js
-## How to Clone the Project
-
 
 ## How to Clone the Project
 
